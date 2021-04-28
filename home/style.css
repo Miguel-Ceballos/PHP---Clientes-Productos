@@ -1,0 +1,145 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+img.logo-brand {
+  width: 100px;
+  width: 100px;
+}
+#hero {
+  background-image: url("b.jpg");
+  background-size: cover;
+  padding-top: 400px;
+  height: 1200px;
+  color: #ffffff;
+}
+.btn {
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.btn-light {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #ffffff;
+}
+
+h1 {
+  font-size: 66px;
+  font-weight: 600px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+div.portfolio-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0px;
+  border-radius: 2px;
+}
+div.portfolio-container img {
+  border-radius: 2px;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all;
+}
+div.portfolio-container:hover img {
+  -moz-transforms: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+div.portfolio-details {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+div.portfolio-details a h2 {
+  color: rgb(71, 47, 15);
+}
+a :hover {
+  text-decoration: none;
+}
+section {
+  padding: 120px;
+}
+.bg-light-grey {
+  background-color: gray;
+}
+.bg-dark {
+  background-color: black !important;
+}
+.member-container {
+  position: relative;
+  margin: 10px 0px;
+}
+.member-details {
+  position: absolute;
+  color: #ffffff;
+  bottom: 0px;
+  left: 20px;
+}
+.costos-container {
+  margin: 15px 0px;
+}
+.plans {
+  padding: 50px 80px;
+  border-radius: 2px;
+  min-width: 450px;
+}
+.plan-light {
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.plan-dark {
+  background-color: black;
+  border: 2px solid black;
+  color: #ffffff;
+}
+.plans span {
+  font-size: 20px;
+}
+.form-control {
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 2px;
+  height: auto;
+}
+.form-control :focus {
+  border: 1px solid;
+  box-shadow: none;
+  outline: none;
+}
+#footer {
+  padding: 80px 0px;
+  text-align: center;
+  color: #ffffff;
+}
+#footer a {
+  color: #ffffff;
+}
+#footer a:hover {
+  color: #ffffff;
+}
+#footer.list-inline.list-inline-item {
+  padding: 10px 15px;
+}
